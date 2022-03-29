@@ -3,6 +3,7 @@ var name = 'Aragorn';
 function x() {
   var name = 'Gimli';
   console.log(name);
+  other = "Legolas";
 }
 
 x();
@@ -11,4 +12,5 @@ y();
 
 function y() {
   console.log(name);
+  console.log(other);
 }
