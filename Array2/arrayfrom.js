@@ -2,8 +2,7 @@ const str = '1234567';
 
 // we want to extract the numbers [1, 2, 3,4, 5, 6, 7] from this string
 
-const res = Array.from(str, x => Number(x));
-
+const res = Array.from(str, Number);
 
 console.log(res);
 
