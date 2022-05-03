@@ -1,3 +1,7 @@
+/***
+ * This file demonstrates how we can create a callback hell.
+ */
+
 let stocks = {
   Fruits : ["strawberry", "grapes", "banana", "apples"],
   liquid: ["water", "ice"],
